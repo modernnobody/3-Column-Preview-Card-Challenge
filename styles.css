@@ -1,0 +1,126 @@
+body {
+  background-color: #F2F2F2;
+  font-size: 15px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 170px auto;
+  color: #F2F2F2;
+}
+
+.card {
+  width: 307px;
+  height: 500px;
+}
+
+.sedans {
+  border-radius: 8px 0px 0px 8px;
+  background-color: #E38826;
+}
+
+.suvs {
+  background-color: #006970;
+}
+
+.luxury {
+  border-radius: 0px 8px 8px 0px;
+  background-color: #004241;
+}
+
+.content {
+  margin: 0 47px;
+}
+
+.icon {
+  padding-top: 48px;
+}
+
+/* Typo */
+
+h1 {
+  font-family: Big Shoulders Display;
+  font-size: 40px;
+  font-weight: 700;
+  padding-top: 35px;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: Lexend Deca;
+  font-weight: 400;
+  line-height: 25px; 
+  padding-top: 25px;
+}
+
+/* Button */
+
+.btn {
+  border-radius: 24px;
+  border: none;
+  background-color: #FFF;
+  width: 148px;
+  height: 48px;
+  font-size: 15px;
+  font-family: Lexend Deca;
+  margin-top: 88px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #FFF;
+  border: 2px solid #FFF;
+}
+
+.btn-sedans {
+  color: #E38826;
+}
+
+.btn-sedans:hover {
+  background-color: #E38826;
+}
+
+.btn-suvs {
+  color: #006970;
+}
+
+.btn-suvs:hover {
+  background-color: #006970;
+}
+
+.btn-luxury {
+  color: #004241;
+}
+
+.btn-luxury:hover {
+  background-color: #004241;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Breakpoints */
+
+@media only screen and (max-width: 375px) {
+  main {
+    flex-direction: column;
+    margin: 80px auto;
+  }
+
+  .sedans {
+    border-radius: 8px 8px 0px 0px;
+  }
+  
+  .luxury {
+    border-radius: 0px 0px 8px 8px;
+  }
+}
